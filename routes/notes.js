@@ -1,5 +1,6 @@
 const notes = require('express').Router();
 const { readFromFile, readAndAppend } = require('../helpers/notesHelper.js');
+const uniqid = require('uniqid')
 
 // GET Route for retrieving all the tips
 notes.get('/', (req, res) => {
@@ -15,7 +16,8 @@ notes.post('/', (req, res) => {
   if (req.body) {
     const newNote = {
       title,
-      text
+      text,
+      id: uniqid()
     };
 
     readAndAppend(newNote, './db/db.json');
