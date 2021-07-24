@@ -1,7 +1,7 @@
 # note-taker
 Note Taker
 
-The goal of this assignment was to add backend functionality the source code. The website was already fully functional on the front end, I just had to plug code into the backend to make it save notes and otherwise function as intended 
+The goal of this assignment was to add backend functionality the source code. The website was already fully functional on the front end, I just had to plug code into the backend to make it save notes and otherwise function as intended. 
 
 ### Prerequisites
 
@@ -16,7 +16,7 @@ Upon initially loading in to the site you will see this:
 
 After clicking on the "Get Started" button you will be presented with a screen that looks like this: 
 ![Screenshot](https://i.imgur.com/X7Y75ch.png)
-From here you can click on one of the text fields to start adding notes
+From here you can click on one of the text fields to start adding notes.
 
 Once you've typed something in both the text fields, you will see save button pop up. 
 ![Screenshot](https://i.imgur.com/sqyUTc5.png)
@@ -38,7 +38,7 @@ While you're viewing a previously saved note, if you'd like to get back to typin
 
 ## Deployed Link
 
-* [See Live Site](https://joshgumperz.github.io/refactor-site-assignment-/)
+* [See Live Site](https://afternoon-shelf-08677.herokuapp.com/)
 
 
 ## Authors
